@@ -258,7 +258,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
   call <SID>X("FoldColumn", "", s:background, "")
   "call <SID>X("Cursor", "NONE", s:non_text, "none")
   hi CursorLine guibg=#202020
-  hi Cursor guifg=NONE guibg=#555555 gui=none
+  hi Cursor guifg=NONE guibg=#60f907 gui=none
   if version >= 700
     call <SID>X("CursorLine", "", s:line, "none")
     call <SID>X("CursorColumn", "", s:line, "none")
